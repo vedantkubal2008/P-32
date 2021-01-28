@@ -91,7 +91,7 @@ function draw() {
               {
                   score=score+500;      
                   particle=null;
-                  if ( count>= 8) gameState ="end";                          
+                  if ( count>= 5) gameState ="end";                          
               }
 
 
@@ -99,14 +99,14 @@ function draw() {
               {
                     score = score + 100;
                     particle=null;
-                    if ( count>= 8) gameState ="end";
+                    if ( count>= 5) gameState ="end";
 
               }
               else if (particle.body.position.x < 900 && particle.body.position.x > 601 )
               {
                     score = score + 200;
                     particle=null;
-                    if ( count>= 8)  gameState ="end";
+                    if ( count>= 5)  gameState ="end";
 
               }      
               
